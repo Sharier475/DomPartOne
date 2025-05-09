@@ -24,7 +24,16 @@ console.log(para);
 let firstEle = document.querySelector("p");
 console.dir(firstEle);
 
+let firstClass = document.querySelector(".heading");
+console.dir(firstClass); 
+
+let button = document.querySelector("#myId")
+console.dir(button); 
+
 //Returns with All Elements
 
 let allEle = document.querySelectorAll("p");
 console.dir(allEle);
+
+let allClass = document.querySelectorAll(".heading");
+console.dir(allClass); 
