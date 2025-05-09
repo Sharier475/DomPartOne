@@ -50,3 +50,24 @@ console.dir(allClass);
 // innerHtml: returns the plain text or HTML contents in the Element.
 // textContent: returns textual content even for hidden elements.
 
+
+
+//Practice
+
+let h2 = document.querySelector("#edit");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText +" From Jashore, Bangladesh"
+
+let indx = 0;
+let divs = document.querySelectorAll(".box");
+for(let div of divs){
+    div.innerText = `new unique value ${indx}`;
+    indx++;
+}
+
+// divs[0].innerText = "new unique value 1"
+// divs[1].innerText = "new unique value 2"
+// divs[2].innerText = "new unique value 3"
+
+
+
