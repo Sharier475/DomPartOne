@@ -21,3 +21,10 @@ console.log(para);
 // Query Selector
 
 //Returns with First Element
+let firstEle = document.querySelector("p");
+console.dir(firstEle);
+
+//Returns with All Elements
+
+let allEle = document.querySelectorAll("p");
+console.dir(allEle);
